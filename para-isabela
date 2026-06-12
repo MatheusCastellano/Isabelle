@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Isabela</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1a0a2e 0%, #2d1b4e 50%, #1a0a2e 100%);
+            font-family: 'Nunito', sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+
+        .card {
+            background: rgba(45, 27, 78, 0.6);
+            padding: 50px 40px;
+            border-radius: 25px;
+            box-shadow: 0 8px 32px rgba(147, 112, 219, 0.4);
+            backdrop-filter: blur(5px);
+            max-width: 90%;
+            animation: popIn 1s ease-out;
+            border: 1px solid rgba(147, 112, 219, 0.3);
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: #e0d4f7;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        p {
+            font-size: 1.4rem;
+            line-height: 1.8;
+            margin: 15px 0;
+            color: #d4c4eb;
+            font-weight: 700;
+        }
+
+        .heart {
+            font-size: 70px;
+            color: #da70d6;
+            animation: heartbeat 1.5s infinite;
+            display: inline-block;
+            margin-top: 20px;
+            text-shadow: 0 0 20px rgba(218, 112, 214, 0.6);
+        }
+
+        @keyframes popIn {
+            0% { transform: scale(0.5); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            15% { transform: scale(1.25); }
+            30% { transform: scale(1); }
+            45% { transform: scale(1.25); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Para Isabela 💜</h1>
+        
+        <p>
+            Apesar de não sermos<br>
+            <strong>feliz dia dos namorados</strong>
+        </p>
+        
+        <div class="heart">♥</div>
+    </div>
+
+</body>
+</html>
